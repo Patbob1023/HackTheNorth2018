@@ -176,15 +176,15 @@ function calculate() {
             ai1.innerHTML = rating;
             
             if (stock=="F") {
-                summary.innerHTML = "We have identified Ford as the company responsible for the object in the image. Their stock is currently trading at " + "$" + parseFloat(selectedStock.price).toFixed(2) + ". Our Machine learning algorithms have classified Ford as an unfavorable investment, with decline predicted in the near future."
+                summary.innerHTML = "We have identified Ford as the company responsible for the object in the image. Their stock is currently trading at " + "$" + parseFloat(selectedStock.price).toFixed(2) + ". Our Machine Learning algorithms have classified Ford as an unfavorable investment, with decline predicted in the near future."
             }
 
             if (stock=="AAPL") {
-                summary.innerHTML = "We have identified Apple as the company responsible for the object in the image. Their stock is currently trading at " + "$" + parseFloat(selectedStock.price).toFixed(2) + ". Our Machine learning algorithms have classified Apple as a favorable investment, with a moderate rise predicted in the near future."
+                summary.innerHTML = "We have identified Apple as the company responsible for the object in the image. Their stock is currently trading at " + "$" + parseFloat(selectedStock.price).toFixed(2) + ". Our Machine Learning algorithms have classified Apple as a favorable investment, with a moderate rise predicted in the near future."
             }
 
             if (stock=="NKE") {
-                summary.innerHTML = "We have identified Nike as the company responsible for the object in the image. Their stock is currently trading at " + "$" + parseFloat(selectedStock.price).toFixed(2) + ". Our Machine learning algorithms have classified Nike as a favorable investment, with a considerable increase predicted in the near future."
+                summary.innerHTML = "We have identified Nike as the company responsible for the object in the image. Their stock is currently trading at " + "$" + parseFloat(selectedStock.price).toFixed(2) + ". Our Machine Learning algorithms have classified Nike as a favorable investment, with a considerable increase predicted in the near future."
             }
         }
 	}
